@@ -64,7 +64,7 @@ export default function Home() {
               <AiFillYoutube />
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} layout="fill" objectFit="cover" alt="" />
             </div>
           </div>
         </section>
@@ -83,7 +83,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt=""/>
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 취미
               </h3>
@@ -97,7 +97,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">입니다.</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt="" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 사용해본 프로그램
               </h3>
@@ -112,7 +112,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">유니티</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt="" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">잘하는 것</h3>
               <p className="py-2">
                 네.. 재가 생각했을때 잘하는 게 아니라 들었던것들입니다.
@@ -147,6 +147,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web1}
+                alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -156,6 +157,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web2}
+                alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -165,6 +167,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+                alt=""
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -174,6 +177,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web4}
+                alt=""
               />
             </div>
             
